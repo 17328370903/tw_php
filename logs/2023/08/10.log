@@ -1,0 +1,529 @@
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(D:\\test\\my_p): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 20,
+  'datetime' => '2023-08-10 09:43:53',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\tpl\\tpl::tpl_analysis(): Return value must be of type string, none returned in D:\\test\\my_p\\core\\tpl\\tpl.php:43
+Stack trace:
+#0 D:\\test\\my_p\\app\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): app\\Controller->view()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(55): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\tpl\\tpl.php',
+  'line' => 43,
+  'datetime' => '2023-08-10 09:45:16',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL',
+  'file' => 'D:\\test\\my_p\\core\\tpl\\tpl.php',
+  'line' => 39,
+  'datetime' => '2023-08-10 09:49:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "if"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_c358ac2016789c35e781c12c2b551aa3.php',
+  'line' => 10,
+  'datetime' => '2023-08-10 09:50:15',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "if"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_ab3bf82e6aa644d1a59fe1dec35ef14a.php',
+  'line' => 10,
+  'datetime' => '2023-08-10 09:51:58',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "if"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_27ff50e6a37cc746ec434151164db4a0.php',
+  'line' => 10,
+  'datetime' => '2023-08-10 09:53:17',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "else"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_7e40e244016939c5accbbae71eba927f.php',
+  'line' => 20,
+  'datetime' => '2023-08-10 10:01:20',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token ";"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_8ec780b8235a53f2d973e40ccfcd3d46.php',
+  'line' => 20,
+  'datetime' => '2023-08-10 10:09:44',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $data',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_0770a9f2f12d997c197fa763cb70ab5f.php',
+  'line' => 9,
+  'datetime' => '2023-08-10 10:34:44',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\add\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:60
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 60,
+  'datetime' => '2023-08-10 10:39:52',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\add\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:60
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 60,
+  'datetime' => '2023-08-10 10:40:25',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\add\\controller\\werweController" not found in D:\\test\\my_p\\core\\Bootstrap.php:60
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 60,
+  'datetime' => '2023-08-10 10:41:38',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\add\\controller\\werweController" not found in D:\\test\\my_p\\core\\Bootstrap.php:60
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 60,
+  'datetime' => '2023-08-10 10:45:53',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: ReflectionClass::getMethods(): Argument #1 ($filter) must be of type ?int, string given in D:\\test\\my_p\\core\\Bootstrap.php:62
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(62): ReflectionClass->getMethods()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 62,
+  'datetime' => '2023-08-10 10:53:23',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: ReflectionMethod::$get',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 66,
+  'datetime' => '2023-08-10 10:57:39',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: ReflectionMethod::$get',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 66,
+  'datetime' => '2023-08-10 10:57:42',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ValueError: ReflectionMethod::getClosure(): Argument #1 ($object) cannot be null for non-static methods in D:\\test\\my_p\\core\\Bootstrap.php:66
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(66): ReflectionMethod->getClosure()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 66,
+  'datetime' => '2023-08-10 10:58:07',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\edit\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:59
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 59,
+  'datetime' => '2023-08-10 10:59:29',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: Too few arguments to function app\\index\\controller\\IndexController::edit(), 0 passed in D:\\test\\my_p\\core\\Bootstrap.php on line 69 and exactly 1 expected in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:24
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(69): app\\index\\controller\\IndexController->edit()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 24,
+  'datetime' => '2023-08-10 10:59:43',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: Too few arguments to function app\\index\\controller\\IndexController::edit(), 0 passed in D:\\test\\my_p\\core\\Bootstrap.php on line 71 and exactly 1 expected in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:24
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(71): app\\index\\controller\\IndexController->edit()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 24,
+  'datetime' => '2023-08-10 11:22:05',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\id\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:58
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 58,
+  'datetime' => '2023-08-10 11:48:42',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "id"',
+  'file' => 'D:\\test\\my_p\\core\\common\\function.php',
+  'line' => 19,
+  'datetime' => '2023-08-10 11:53:55',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\add\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:62
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 62,
+  'datetime' => '2023-08-10 12:22:03',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "app\\\\controller\\indexController" not found in D:\\test\\my_p\\core\\Bootstrap.php:62
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#1 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#2 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\Bootstrap.php',
+  'line' => 62,
+  'datetime' => '2023-08-10 15:23:40',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught core\\upload\\exception\\UploadException: 上传文件不大于2M in D:\\test\\my_p\\core\\upload\\Upload.php:63
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(23): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 63,
+  'datetime' => '2023-08-10 15:53:58',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Typed property core\\upload\\Upload::$uploadDir must not be accessed before initialization in D:\\test\\my_p\\core\\upload\\Upload.php:84
+Stack trace:
+#0 D:\\test\\my_p\\core\\upload\\Upload.php(73): core\\upload\\Upload->createFileName()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\upload\\Upload->loacal()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 84,
+  'datetime' => '2023-08-10 15:54:42',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Typed property core\\upload\\Upload::$uploadDir must not be accessed before initialization in D:\\test\\my_p\\core\\upload\\Upload.php:84
+Stack trace:
+#0 D:\\test\\my_p\\core\\upload\\Upload.php(73): core\\upload\\Upload->createFileName()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\upload\\Upload->loacal()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 84,
+  'datetime' => '2023-08-10 15:55:52',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Typed property core\\db\\Db::$groupBy must not be accessed before initialization in D:\\test\\my_p\\core\\db\\Db.php:253
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(104): core\\db\\Db->getSql()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 253,
+  'datetime' => '2023-08-10 16:13:50',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "id"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_653699755e945ac248725162ce7063d6.php',
+  'line' => 10,
+  'datetime' => '2023-08-10 16:17:23',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method core\\db\\Db::fidndAll() in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:19
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 19,
+  'datetime' => '2023-08-10 16:36:59',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column \'article.category\' in \'on clause\' in D:\\test\\my_p\\core\\db\\Db.php:124
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(124): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 124,
+  'datetime' => '2023-08-10 16:37:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:319
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(319): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(21): core\\db\\Db->count()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 319,
+  'datetime' => '2023-08-10 16:48:43',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'%展示% a  where id>2342\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:132
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(132): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 132,
+  'datetime' => '2023-08-10 17:14:57',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'%展示% a  where a.id>1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:132
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(132): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 132,
+  'datetime' => '2023-08-10 17:15:53',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'a  where a.id>1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:132
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(132): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 132,
+  'datetime' => '2023-08-10 17:16:31',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'a  where a.id>1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:132
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(132): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 132,
+  'datetime' => '2023-08-10 17:17:40',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'a  where a.id>1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:132
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(132): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 132,
+  'datetime' => '2023-08-10 17:18:18',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column \'c.title\' in \'on clause\' in D:\\test\\my_p\\core\\db\\Db.php:133
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(133): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(21): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 133,
+  'datetime' => '2023-08-10 17:24:24',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'select * from category as c on a.category_id=c.id and a.title like \'%%\'  wher...\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:133
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(133): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(21): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 133,
+  'datetime' => '2023-08-10 17:29:52',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'in (\'2\'))  limit 0,10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:154
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(154): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 154,
+  'datetime' => '2023-08-10 18:13:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in D:\\test\\my_p\\core\\db\\Db.php:154
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(154): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 154,
+  'datetime' => '2023-08-10 18:15:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in D:\\test\\my_p\\core\\db\\Db.php:155
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 155,
+  'datetime' => '2023-08-10 18:16:36',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'in(\'2\'))  limit 0,10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:155
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 155,
+  'datetime' => '2023-08-10 18:21:10',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'in(\'2\'))  limit 0,10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:155
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 155,
+  'datetime' => '2023-08-10 18:21:46',
+)

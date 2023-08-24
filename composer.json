@@ -1,0 +1,25 @@
+{
+    "name": "99650/my_p",
+    "description": "w234",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/",
+            "ws\\":"ws/"
+        },
+        "files": [
+            "app/function.php",
+            "core/common/function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "234"
+        }
+    ],
+    "require": {
+        "ezyang/htmlpurifier": "^4.16",
+        "jaeger/querylist": "~V4",
+        "jaeger/querylist-rule-baidu": "^4.0"
+    }
+}

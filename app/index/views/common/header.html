@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{# $name ?? '張三' #}</title>
+</head>
+<body>
+{#for $i=0;$i<10;$i++ #}
+    {#if $i > 3#}
+        <h2>{#$i#}</h2>
+    {#/if#}
+{#/for #}
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+array (
+  'error_no' => 2,
+  'error_msg' => 'Attempt to read property "table" on null',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 15,
+  'datetime' => '2023-08-16 09:17:01',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'>\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:154
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(154): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 154,
+  'datetime' => '2023-08-16 09:18:51',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-16 09:24:06',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-16 09:30:21',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-16 09:30:56',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-16 09:34:28',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::where() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-16 09:42:54',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: curl_setopt(): Argument #2 ($option) must be of type int, string given in D:\\test\\my_p\\core\\curl\\HttpRequest.php:10
+Stack trace:
+#0 D:\\test\\my_p\\core\\curl\\HttpRequest.php(10): curl_setopt()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\curl\\HttpRequest->get()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\curl\\HttpRequest.php',
+  'line' => 10,
+  'datetime' => '2023-08-16 14:38:23',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: Cannot assign string to property core\\db\\Db::$limit of type int in D:\\test\\my_p\\core\\db\\Db.php:113
+Stack trace:
+#0 D:\\test\\my_p\\app\\api\\controller\\ArticleController.php(19): core\\db\\Db->limit()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\api\\controller\\ArticleController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 113,
+  'datetime' => '2023-08-16 15:53:19',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: Cannot assign string to property core\\db\\Db::$limit of type int in D:\\test\\my_p\\core\\db\\Db.php:113
+Stack trace:
+#0 D:\\test\\my_p\\app\\api\\controller\\ArticleController.php(19): core\\db\\Db->limit()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\api\\controller\\ArticleController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 113,
+  'datetime' => '2023-08-16 15:53:22',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:216
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(216): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\api\\controller\\ArticleController.php(19): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\api\\controller\\ArticleController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 216,
+  'datetime' => '2023-08-16 15:53:59',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:216
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(216): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\api\\controller\\ArticleController.php(19): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\api\\controller\\ArticleController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 216,
+  'datetime' => '2023-08-16 15:54:16',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'10\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:216
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(216): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\api\\controller\\ArticleController.php(19): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\api\\controller\\ArticleController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 216,
+  'datetime' => '2023-08-16 15:55:08',
+)

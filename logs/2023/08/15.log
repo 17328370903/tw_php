@@ -1,0 +1,819 @@
+array (
+  'error_no' => 500,
+  'error_msg' => 'Cannot use "parent" when current class scope has no parent',
+  'file' => 'D:\\test\\my_p\\core\\facade\\Facade.php',
+  'line' => 11,
+  'datetime' => '2023-08-15 09:11:20',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::find() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-15 09:31:58',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: core\\model\\Model::$table',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 12,
+  'datetime' => '2023-08-15 09:39:59',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: core\\model\\Model::$table',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 12,
+  'datetime' => '2023-08-15 09:40:38',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Access to undeclared static property core\\model\\Model::$table in D:\\test\\my_p\\core\\model\\Model.php:12
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(17): core\\model\\Model->__construct()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 12,
+  'datetime' => '2023-08-15 09:40:57',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Access to undeclared static property core\\model\\Model::$table in D:\\test\\my_p\\core\\model\\Model.php:12
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(17): core\\model\\Model->__construct()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 12,
+  'datetime' => '2023-08-15 09:41:04',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: core\\model\\Model::$table',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 12,
+  'datetime' => '2023-08-15 09:41:16',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class core\\model\\Model does not have a method "find" in D:\\test\\my_p\\core\\model\\Model.php:19
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(19): call_user_func_array()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 19,
+  'datetime' => '2023-08-15 09:41:48',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class core\\model\\Model does not have a method "find" in D:\\test\\my_p\\core\\model\\Model.php:19
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(19): call_user_func_array()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 19,
+  'datetime' => '2023-08-15 09:41:58',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class app\\model\\Article does not have a method "find" in D:\\test\\my_p\\core\\model\\Model.php:19
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(19): call_user_func_array()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 19,
+  'datetime' => '2023-08-15 09:42:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Access to undeclared static property core\\model\\Model::$table in D:\\test\\my_p\\core\\model\\Model.php:128
+Stack trace:
+#0 D:\\test\\my_p\\core\\model\\Model.php(15): core\\model\\Model::getTable()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\model\\Model::__callStatic()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 128,
+  'datetime' => '2023-08-15 09:46:51',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-15 09:53:27',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-15 09:54:23',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\model\\Model::with() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:17
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-15 09:55:19',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #2 ($bindValue) must be of type array, int given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 18 and defined in D:\\test\\my_p\\core\\db\\Db.php:78
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\db\\Db.php(182): app\\index\\controller\\IndexController->app\\index\\controller\\{closure}()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 78,
+  'datetime' => '2023-08-15 09:57:31',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught GuzzleHttp\\Exception\\RequestException: cURL error 61: Unrecognized content encoding type. libcurl understands deflate, gzip content encodings. (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://www.baidu.com/s?wd=QueryList&rn=3&pn=0 in D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211
+Stack trace:
+#0 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection()
+#1 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError()
+#2 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish()
+#3 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke()
+#4 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#5 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(35): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#6 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(38): GuzzleHttp\\PrepareBodyMiddleware->__invoke()
+#7 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#8 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(66): GuzzleHttp\\RedirectMiddleware->__invoke()
+#9 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#10 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(333): GuzzleHttp\\HandlerStack->__invoke()
+#11 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(169): GuzzleHttp\\Client->transfer()
+#12 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Client->requestAsync()
+#13 D:\\test\\my_p\\vendor\\jaeger\\g-http\\src\\GHttp.php(64): GuzzleHttp\\Client->request()
+#14 D:\\test\\my_p\\vendor\\jaeger\\g-http\\src\\Cache.php(25): Jaeger\\GHttp::_get()
+#15 D:\\test\\my_p\\vendor\\jaeger\\g-http\\src\\GHttp.php(33): Jaeger\\Cache::remember()
+#16 D:\\test\\my_p\\vendor\\jaeger\\querylist\\src\\Services\\HttpService.php(33): Jaeger\\GHttp::__callStatic()
+#17 D:\\test\\my_p\\vendor\\jaeger\\querylist\\src\\Providers\\HttpServiceProvider.php(21): QL\\Services\\HttpService::get()
+#18 [internal function]: QL\\QueryList->QL\\Providers\\{closure}()
+#19 D:\\test\\my_p\\vendor\\jaeger\\querylist\\src\\QueryList.php(67): Closure->call()
+#20 D:\\test\\my_p\\vendor\\jaeger\\querylist-rule-baidu\\Baidu.php(86): QL\\QueryList->__call()
+#21 D:\\test\\my_p\\vendor\\jaeger\\querylist-rule-baidu\\Baidu.php(60): QL\\Ext\\Baidu->query()
+#22 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(27): QL\\Ext\\Baidu->page()
+#23 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#24 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#25 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#26 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php',
+  'line' => 211,
+  'datetime' => '2023-08-15 11:40:12',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 2457',
+  'file' => 'D:\\test\\my_p\\vendor\\jaeger\\phpquery-single\\phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 11:44:13',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 2457',
+  'file' => 'D:\\test\\my_p\\vendor\\jaeger\\phpquery-single\\phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 11:44:27',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 2457',
+  'file' => 'D:\\test\\my_p\\vendor\\jaeger\\phpquery-single\\phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 11:44:55',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught GuzzleHttp\\Exception\\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://www.baidu.com/s?wd=QueryList in D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211
+Stack trace:
+#0 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection()
+#1 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError()
+#2 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish()
+#3 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke()
+#4 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#5 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(35): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#6 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(31): GuzzleHttp\\PrepareBodyMiddleware->__invoke()
+#7 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#8 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(66): GuzzleHttp\\RedirectMiddleware->__invoke()
+#9 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#10 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(333): GuzzleHttp\\HandlerStack->__invoke()
+#11 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(169): GuzzleHttp\\Client->transfer()
+#12 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Client->requestAsync()
+#13 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): GuzzleHttp\\Client->request()
+#14 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#15 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#16 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#17 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php',
+  'line' => 211,
+  'datetime' => '2023-08-15 11:54:12',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught GuzzleHttp\\Exception\\RequestException: cURL error 61: Unrecognized content encoding type. libcurl understands deflate, gzip content encodings. (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://www.baidu.com/s?wd=QueryList in D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211
+Stack trace:
+#0 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection()
+#1 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError()
+#2 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish()
+#3 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke()
+#4 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#5 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(35): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#6 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(31): GuzzleHttp\\PrepareBodyMiddleware->__invoke()
+#7 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#8 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(66): GuzzleHttp\\RedirectMiddleware->__invoke()
+#9 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#10 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(333): GuzzleHttp\\HandlerStack->__invoke()
+#11 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(169): GuzzleHttp\\Client->transfer()
+#12 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Client->requestAsync()
+#13 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): GuzzleHttp\\Client->request()
+#14 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#15 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#16 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#17 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php',
+  'line' => 211,
+  'datetime' => '2023-08-15 11:55:26',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught GuzzleHttp\\Exception\\RequestException: cURL error 61: Unrecognized content encoding type. libcurl understands deflate, gzip content encodings. (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://www.baidu.com/s?wd=QueryList in D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php:211
+Stack trace:
+#0 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(158): GuzzleHttp\\Handler\\CurlFactory::createRejection()
+#1 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php(110): GuzzleHttp\\Handler\\CurlFactory::finishError()
+#2 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish()
+#3 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke()
+#4 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#5 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\PrepareBodyMiddleware.php(35): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#6 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(31): GuzzleHttp\\PrepareBodyMiddleware->__invoke()
+#7 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#8 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(66): GuzzleHttp\\RedirectMiddleware->__invoke()
+#9 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#10 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(333): GuzzleHttp\\HandlerStack->__invoke()
+#11 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(169): GuzzleHttp\\Client->transfer()
+#12 D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Client->requestAsync()
+#13 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): GuzzleHttp\\Client->request()
+#14 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#15 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#16 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#17 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\vendor\\guzzlehttp\\guzzle\\src\\Handler\\CurlFactory.php',
+  'line' => 211,
+  'datetime' => '2023-08-15 11:55:43',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 2457',
+  'file' => 'D:\\test\\my_p\\vendor\\jaeger\\phpquery-single\\phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 11:55:56',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Array to string conversion',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 42,
+  'datetime' => '2023-08-15 14:33:39',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Swoole\\ExitException: swoole exit in /mnt/d/test/my_p/core/Bootstrap.php:105
+Stack trace:
+#0 /mnt/d/test/my_p/core/Bootstrap.php(42): core\\Bootstrap::core\\{closure}()
+#1 [internal function]: core\\Bootstrap::core\\{closure}()
+#2 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 105,
+  'datetime' => '2023-08-15 14:33:39',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Array to string conversion',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 42,
+  'datetime' => '2023-08-15 14:36:06',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Swoole\\ExitException: swoole exit in /mnt/d/test/my_p/core/Bootstrap.php:105
+Stack trace:
+#0 /mnt/d/test/my_p/core/Bootstrap.php(42): core\\Bootstrap::core\\{closure}()
+#1 [internal function]: core\\Bootstrap::core\\{closure}()
+#2 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 105,
+  'datetime' => '2023-08-15 14:36:06',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "uri"',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 42,
+  'datetime' => '2023-08-15 14:39:52',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Swoole\\ExitException: swoole exit in /mnt/d/test/my_p/core/Bootstrap.php:106
+Stack trace:
+#0 /mnt/d/test/my_p/core/Bootstrap.php(42): core\\Bootstrap::core\\{closure}()
+#1 [internal function]: core\\Bootstrap::core\\{closure}()
+#2 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 106,
+  'datetime' => '2023-08-15 14:39:52',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Swoole\\Http\\Response::end(): http response is unavailable (maybe it has been ended or detached)',
+  'file' => '/mnt/d/test/my_p/app/index/controller/indexController.php',
+  'line' => 16,
+  'datetime' => '2023-08-15 14:47:45',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Swoole\\ExitException: swoole exit in /mnt/d/test/my_p/core/Bootstrap.php:113
+Stack trace:
+#0 [internal function]: core\\Bootstrap::core\\{closure}()
+#1 /mnt/d/test/my_p/app/index/controller/indexController.php(16): Swoole\\Http\\Response->end()
+#2 /mnt/d/test/my_p/core/Bootstrap.php(86): app\\index\\controller\\IndexController->index()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(43): core\\Bootstrap::getRoute()
+#4 [internal function]: core\\Bootstrap::core\\{closure}()
+#5 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 113,
+  'datetime' => '2023-08-15 14:47:45',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Swoole\\Http\\Response::header(): http response is unavailable (maybe it has been ended or detached)',
+  'file' => '/mnt/d/test/my_p/app/index/controller/indexController.php',
+  'line' => 16,
+  'datetime' => '2023-08-15 14:48:18',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Swoole\\ExitException: swoole exit in /mnt/d/test/my_p/core/Bootstrap.php:113
+Stack trace:
+#0 [internal function]: core\\Bootstrap::core\\{closure}()
+#1 /mnt/d/test/my_p/app/index/controller/indexController.php(16): Swoole\\Http\\Response->header()
+#2 /mnt/d/test/my_p/core/Bootstrap.php(86): app\\index\\controller\\IndexController->index()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(43): core\\Bootstrap::getRoute()
+#4 [internal function]: core\\Bootstrap::core\\{closure}()
+#5 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/core/Bootstrap.php',
+  'line' => 113,
+  'datetime' => '2023-08-15 14:48:18',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: Too few arguments to function app\\index\\controller\\IndexController::__construct(), 0 passed in /mnt/d/test/my_p/core/Bootstrap.php on line 85 and exactly 1 expected in /mnt/d/test/my_p/app/index/controller/indexController.php:14
+Stack trace:
+#0 /mnt/d/test/my_p/core/Bootstrap.php(85): app\\index\\controller\\IndexController->__construct()
+#1 /mnt/d/test/my_p/core/Bootstrap.php(43): core\\Bootstrap::getRoute()
+#2 [internal function]: core\\Bootstrap::core\\{closure}()
+#3 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/app/index/controller/indexController.php',
+  'line' => 14,
+  'datetime' => '2023-08-15 14:49:08',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 132',
+  'file' => '/mnt/d/test/my_p/vendor/jaeger/phpquery-single/phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 15:06:14',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 132',
+  'file' => '/mnt/d/test/my_p/vendor/jaeger/phpquery-single/phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 15:49:26',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'DOMDocument::loadHTML(): htmlParseEntityRef: expecting \';\' in Entity, line: 132',
+  'file' => '/mnt/d/test/my_p/vendor/jaeger/phpquery-single/phpQuery.php',
+  'line' => 341,
+  'datetime' => '2023-08-15 15:50:39',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in /mnt/d/test/my_p/runtime/index/index/index_c5776f5056d36cef94d9ee95c336475e.php:1
+Stack trace:
+#0 /mnt/d/test/my_p/core/tpl/tpl.php(48): include_once()
+#1 /mnt/d/test/my_p/core/controller/Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 /mnt/d/test/my_p/app/index/controller/indexController.php(17): core\\controller\\Controller->view()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 /mnt/d/test/my_p/core/Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 /mnt/d/test/my_p/index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_c5776f5056d36cef94d9ee95c336475e.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:37:40',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(common/header.html ): Failed to open stream: No such file or directory',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_7fa0ac07b0948aa09722fb21c3c5aa68.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:40:08',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in /mnt/d/test/my_p/runtime/index/index/index_ae4deb2d44c36514b675c333fe0817b1.php:1
+Stack trace:
+#0 /mnt/d/test/my_p/core/tpl/tpl.php(50): include_once()
+#1 /mnt/d/test/my_p/core/controller/Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 /mnt/d/test/my_p/app/index/controller/indexController.php(17): core\\controller\\Controller->view()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 /mnt/d/test/my_p/core/Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 /mnt/d/test/my_p/index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_ae4deb2d44c36514b675c333fe0817b1.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:42:00',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in /mnt/d/test/my_p/runtime/index/index/index_c0c7e9103f97acfae288f7d2096c5676.php:1
+Stack trace:
+#0 /mnt/d/test/my_p/core/tpl/tpl.php(50): include_once()
+#1 /mnt/d/test/my_p/core/controller/Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 /mnt/d/test/my_p/app/index/controller/indexController.php(17): core\\controller\\Controller->view()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 /mnt/d/test/my_p/core/Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 /mnt/d/test/my_p/index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_c0c7e9103f97acfae288f7d2096c5676.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:43:31',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in /mnt/d/test/my_p/runtime/index/index/index_d29c6e6c7baaf788a4fea110302b47b3.php:1
+Stack trace:
+#0 /mnt/d/test/my_p/core/tpl/tpl.php(52): include_once()
+#1 /mnt/d/test/my_p/core/controller/Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 /mnt/d/test/my_p/app/index/controller/indexController.php(17): core\\controller\\Controller->view()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 /mnt/d/test/my_p/core/Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 /mnt/d/test/my_p/index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_d29c6e6c7baaf788a4fea110302b47b3.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:44:26',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in /mnt/d/test/my_p/runtime/index/index/index_b35d650d0bf7ce13e80572526a22546a.php:1
+Stack trace:
+#0 /mnt/d/test/my_p/core/tpl/tpl.php(52): include_once()
+#1 /mnt/d/test/my_p/core/controller/Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 /mnt/d/test/my_p/app/index/controller/indexController.php(17): core\\controller\\Controller->view()
+#3 /mnt/d/test/my_p/core/Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 /mnt/d/test/my_p/core/Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 /mnt/d/test/my_p/index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_b35d650d0bf7ce13e80572526a22546a.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:44:52',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(/mnt/d/test/my_p/app/index/views/common/header.html ): Failed to open stream: No such file or directory',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_ef3d1adf5e176a6f376be8d8f25d4e3d.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:45:44',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(/mnt/d/test/my_p/app/index/views/common/header.html ): Failed to open stream: No such file or directory',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_b5a38e3245491bf2b51de4d649a6b9e1.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:47:03',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(/mnt/d/test/my_p/app/index/views/common/header.html ): Failed to open stream: No such file or directory',
+  'file' => '/mnt/d/test/my_p/runtime/index/index/index_cf0f0deea32d6eb1d0ace96be7efe675.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:47:19',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_7eeb4378d2a5c7db31efc5f88c313ca8.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:47:46',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_ae659cc13152b9e16bf2bf2ca1c06b62.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:47:51',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_de7c9e306b44d5990b270941148b7f8d.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:48:12',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'include_once(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_cc37d5fc67db886250e3b7ea9bf224f6.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:48:14',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_ab4708aab88a000624843de847381ce0.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:49:07',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in D:\\test\\my_p\\runtime\\index\\index\\index_11e7aeab895df8c71f5dc2de28c162f3.php:1
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(52): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(17): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_11e7aeab895df8c71f5dc2de28c162f3.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 16:50:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "name" in D:\\test\\my_p\\runtime\\index\\index\\index_feb03fd5fac741d7bef802dab4123ede.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(52): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_feb03fd5fac741d7bef802dab4123ede.php',
+  'line' => 11,
+  'datetime' => '2023-08-15 17:32:27',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "name" in D:\\test\\my_p\\runtime\\index\\index\\index_29d381775f35774148a25c21024c5da9.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(52): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_29d381775f35774148a25c21024c5da9.php',
+  'line' => 11,
+  'datetime' => '2023-08-15 17:33:21',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "name" in D:\\test\\my_p\\runtime\\index\\index\\index_2b00d6e3b43c75dc48a2e1c07b521157.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(52): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_2b00d6e3b43c75dc48a2e1c07b521157.php',
+  'line' => 11,
+  'datetime' => '2023-08-15 17:34:24',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in D:\\test\\my_p\\runtime\\index\\index\\index_5df65bb6a10e6b195933f8855aa953f4.php:1
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(52): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_5df65bb6a10e6b195933f8855aa953f4.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 17:43:02',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "common" in D:\\test\\my_p\\runtime\\index\\index\\index_b4fcdb05c0c00a6bfa1aab0d781411e5.php:1
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(64): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_b4fcdb05c0c00a6bfa1aab0d781411e5.php',
+  'line' => 1,
+  'datetime' => '2023-08-15 17:49:22',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\common.header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\core\\tpl\\tpl.php',
+  'line' => 49,
+  'datetime' => '2023-08-15 17:51:55',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\common/header.html ): Failed to open stream: Permission denied',
+  'file' => 'D:\\test\\my_p\\core\\tpl\\tpl.php',
+  'line' => 49,
+  'datetime' => '2023-08-15 17:52:12',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $name',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_99565fd7c8b14c454d5c0927c56316b2.php',
+  'line' => 5,
+  'datetime' => '2023-08-15 17:54:25',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Undefined constant "張三" in D:\\test\\my_p\\runtime\\index\\index\\index_511bdf2f165c97e80106a3c0e953a67c.php:5
+Stack trace:
+#0 D:\\test\\my_p\\core\\tpl\\tpl.php(63): include_once()
+#1 D:\\test\\my_p\\core\\controller\\Controller.php(19): core\\tpl\\tpl->tpl_analysis()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16): core\\controller\\Controller->view()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(64): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_511bdf2f165c97e80106a3c0e953a67c.php',
+  'line' => 5,
+  'datetime' => '2023-08-15 17:54:55',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $name',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_23b0bd341f0a76c6cfdf292905350f86.php',
+  'line' => 5,
+  'datetime' => '2023-08-15 17:56:52',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $name',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_f0de415e5c39097fb73b44290bf6e2cf.php',
+  'line' => 5,
+  'datetime' => '2023-08-15 17:57:04',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_155df5c35f5dd28927555ad816e81511.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:01:46',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_0916f651591a6df329e85f8252f9c099.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:02:10',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_97de9cf3879c510f308c4e2873120b50.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:02:14',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_50ba219f5b252da67d6254376e00fc5c.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:04:35',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_eb000ad7e71488221c91c23af8ca28ca.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:05:02',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_53db58b613a96912e4812e7c96240df9.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:05:54',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_d1f6f61bd9ef7bf262a9e14d6e19bae3.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:06:44',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "/"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_d891cc0b622937f885810a0d7bae9014.php',
+  'line' => 10,
+  'datetime' => '2023-08-15 18:06:55',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Array to string conversion',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_b9a2d374948e298638e8ce77cb76c881.php',
+  'line' => 17,
+  'datetime' => '2023-08-15 18:11:10',
+)

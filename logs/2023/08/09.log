@@ -1,0 +1,464 @@
+array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:08:42',
+)array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:09:28',
+)array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:09:28',
+)array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:09:47',
+)
+array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:09:47',
+)
+array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:18:49',
+)
+array (
+  'error_no' => 256,
+  'error_msg' => '23423423',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 8,
+  'datetime' => '2023-08-09 12:18:50',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "Bootstrap" not found in D:\\test\\my_p\\index.php:6
+Stack trace:
+#0 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\index.php',
+  'line' => 6,
+  'datetime' => '2023-08-09 12:18:56',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Class "Bootstrap" not found in D:\\test\\my_p\\index.php:6
+Stack trace:
+#0 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\index.php',
+  'line' => 6,
+  'datetime' => '2023-08-09 12:19:00',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\\test\\my_p\\core\\db\\Db.php:23
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(23): in_array()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(10): core\\db\\Db::getInstance()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 23,
+  'datetime' => '2023-08-09 14:12:26',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: Too few arguments to function core\\db\\Db::connectDb(), 0 passed in D:\\test\\my_p\\core\\db\\Db.php on line 26 and exactly 1 expected in D:\\test\\my_p\\core\\db\\Db.php:36
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(26): core\\db\\Db::connectDb()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(10): core\\db\\Db::getInstance()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 36,
+  'datetime' => '2023-08-09 14:12:46',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught mysqli_sql_exception: 由于目标计算机积极拒绝，无法连接。 in D:\\test\\my_p\\core\\db\\Db.php:44
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(44): mysqli_connect()
+#1 D:\\test\\my_p\\core\\db\\Db.php(26): core\\db\\Db::connectDb()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(10): core\\db\\Db::getInstance()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 44,
+  'datetime' => '2023-08-09 14:13:23',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught mysqli_sql_exception: 由于目标计算机积极拒绝，无法连接。 in D:\\test\\my_p\\core\\db\\Db.php:44
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(44): mysqli_connect()
+#1 D:\\test\\my_p\\core\\db\\Db.php(26): core\\db\\Db::connectDb()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(10): core\\db\\Db::getInstance()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 44,
+  'datetime' => '2023-08-09 14:14:36',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught mysqli_sql_exception: Invalid character set was provided in D:\\test\\my_p\\core\\db\\Db.php:45
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(45): mysqli_set_charset()
+#1 D:\\test\\my_p\\core\\db\\Db.php(26): core\\db\\Db::connectDb()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(10): core\\db\\Db::getInstance()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 45,
+  'datetime' => '2023-08-09 14:16:24',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::table() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 11,
+  'datetime' => '2023-08-09 14:30:50',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::table() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 11,
+  'datetime' => '2023-08-09 14:31:37',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::table() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 11,
+  'datetime' => '2023-08-09 14:35:05',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::table() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:11
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 11,
+  'datetime' => '2023-08-09 14:36:07',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "}"',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 13,
+  'datetime' => '2023-08-09 14:45:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'frowm article where id =\'1\'\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:28
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(28): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(12): core\\db\\Db->query()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 28,
+  'datetime' => '2023-08-09 14:50:40',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'} limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:81
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(81): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 81,
+  'datetime' => '2023-08-09 15:40:03',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #1 ($field) must be of type string, Closure given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 22 and defined in D:\\test\\my_p\\core\\db\\Db.php:72
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 72,
+  'datetime' => '2023-08-09 15:52:29',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #1 ($field) must be of type string, Closure given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 22 and defined in D:\\test\\my_p\\core\\db\\Db.php:72
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 72,
+  'datetime' => '2023-08-09 15:52:42',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Object of class Closure could not be converted to string in D:\\test\\my_p\\core\\db\\Db.php:85
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 85,
+  'datetime' => '2023-08-09 15:57:24',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Object of class Closure could not be converted to string in D:\\test\\my_p\\core\\db\\Db.php:85
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 85,
+  'datetime' => '2023-08-09 15:57:38',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined function core\\db\\import() in D:\\test\\my_p\\core\\db\\Db.php:149
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(23): core\\db\\Db->update()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(50): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 149,
+  'datetime' => '2023-08-09 16:34:14',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Array to string conversion',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 149,
+  'datetime' => '2023-08-09 16:36:41',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "if", expecting variable or "{" or "$"',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 161,
+  'datetime' => '2023-08-09 16:41:05',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "if", expecting variable or "{" or "$"',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 161,
+  'datetime' => '2023-08-09 16:41:07',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\index\\index.html): Failed to open stream: No such file or directory',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 14,
+  'datetime' => '2023-08-09 16:59:55',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected string content "", expecting "-" or identifier or variable or number',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 17,
+  'datetime' => '2023-08-09 17:08:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected identifier "var_dump"',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 16,
+  'datetime' => '2023-08-09 17:12:33',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'preg_match(): Unknown modifier \'g\'',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 15,
+  'datetime' => '2023-08-09 17:13:41',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'preg_match(): Unknown modifier \'g\'',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 15,
+  'datetime' => '2023-08-09 17:13:42',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected end of file',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php(16) : eval()\'d code',
+  'line' => 1,
+  'datetime' => '2023-08-09 17:17:20',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\index\\index.html): Failed to open stream: No such file or directory',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 14,
+  'datetime' => '2023-08-09 18:06:51',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $html',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 30,
+  'datetime' => '2023-08-09 18:08:20',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'file_get_contents(D:\\test\\my_p\\app\\index\\views\\index\\index.php): Failed to open stream: No such file or directory',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 16,
+  'datetime' => '2023-08-09 18:14:38',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:18
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): preg_replace()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(55): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 18,
+  'datetime' => '2023-08-09 18:14:44',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:18
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): preg_replace()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(55): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 18,
+  'datetime' => '2023-08-09 18:15:10',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:18
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): preg_replace()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(55): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 18,
+  'datetime' => '2023-08-09 18:15:46',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:18
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): preg_replace()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(55): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 18,
+  'datetime' => '2023-08-09 18:17:25',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $result',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 20,
+  'datetime' => '2023-08-09 18:17:39',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'preg_replace(): Unknown modifier \'f\'',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 19,
+  'datetime' => '2023-08-09 18:23:00',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected token "}"',
+  'file' => 'D:\\test\\my_p\\runtime\\c7f4d4fef177bbcd851ac4f1f607dc4d.php',
+  'line' => 11,
+  'datetime' => '2023-08-09 18:26:59',
+)

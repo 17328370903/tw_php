@@ -1,0 +1,530 @@
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: ReflectionProperty::$table',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 49,
+  'datetime' => '2023-08-11 09:52:12',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined property: ReflectionProperty::$table',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 55,
+  'datetime' => '2023-08-11 09:54:10',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'syntax error, unexpected integer "1", expecting variable or "{" or "$"',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 18,
+  'datetime' => '2023-08-11 10:01:42',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'?  order by id desc limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:137
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(137): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 137,
+  'datetime' => '2023-08-11 10:17:46',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'order by id desc limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:139
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(139): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 139,
+  'datetime' => '2023-08-11 10:36:55',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'order by id desc limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:139
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(139): PDOStatement->execute()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 139,
+  'datetime' => '2023-08-11 10:37:25',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Typed property core\\db\\Db::$relName must not be accessed before initialization in D:\\test\\my_p\\core\\model\\Model.php:38
+Stack trace:
+#0 D:\\test\\my_p\\app\\model\\Article.php(13): core\\model\\Model->hasOne()
+#1 D:\\test\\my_p\\core\\model\\Model.php(23): app\\model\\Article->categorys()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\model\\Model->with()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 38,
+  'datetime' => '2023-08-11 10:37:59',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column \'title\' in \'field list\' in D:\\test\\my_p\\core\\db\\Db.php:139
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(139): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(154): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 139,
+  'datetime' => '2023-08-11 10:38:22',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Exception: error in D:\\test\\my_p\\core\\model\\Model.php:19
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(22): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 19,
+  'datetime' => '2023-08-11 10:51:39',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "lang_id"',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 154,
+  'datetime' => '2023-08-11 10:52:18',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "lang_id"',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 154,
+  'datetime' => '2023-08-11 10:52:33',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method app\\model\\Lang::lang() in D:\\test\\my_p\\core\\model\\Model.php:26
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\db\\Db.php(156): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 26,
+  'datetime' => '2023-08-11 10:53:34',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method app\\model\\Lang::lang() in D:\\test\\my_p\\core\\model\\Model.php:22
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\db\\Db.php(156): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 22,
+  'datetime' => '2023-08-11 10:54:11',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method app\\model\\Lang::lang() in D:\\test\\my_p\\core\\model\\Model.php:23
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\db\\Db.php(156): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 23,
+  'datetime' => '2023-08-11 10:56:04',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method app\\model\\Lang::lang() in D:\\test\\my_p\\core\\model\\Model.php:23
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(155): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\db\\Db.php(156): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(24): core\\db\\Db->find()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 23,
+  'datetime' => '2023-08-11 11:00:54',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined function app\\index\\controller\\josn_encode() in D:\\test\\my_p\\app\\index\\controller\\IndexController.php:25
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 25,
+  'datetime' => '2023-08-11 11:11:14',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: Cannot assign Closure to property core\\db\\Db::$relName of type string in D:\\test\\my_p\\core\\model\\Model.php:39
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(18): core\\model\\Model->with()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\model\\Model.php',
+  'line' => 39,
+  'datetime' => '2023-08-11 11:22:55',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined variable $data',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_53e9039647ec482e36ff3a2ef6e2c07b.php',
+  'line' => 9,
+  'datetime' => '2023-08-11 11:55:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Unclosed \'{\' on line 9',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_83722855b755cb6fa2be99549aa7ade3.php',
+  'line' => 25,
+  'datetime' => '2023-08-11 11:56:31',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_829cb16e860c9cc7125cbf07210ea010.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 11:59:58',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_493a723b1069224e053f1f1aa28f50e0.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:00:37',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_34e28414decfab9ad8262dcc4a5a2c77.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:04:21',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_23ca041079b5c0ddc16ac7f1d2c572ff.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:05:29',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_ccc8ba6ac86c1b3871016b7f8e9d1ad0.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:05:31',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\upload\\Upload::loacal(): Argument #1 ($file) must be of type array, null given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 36 and defined in D:\\test\\my_p\\core\\upload\\Upload.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(36): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 41,
+  'datetime' => '2023-08-11 12:07:51',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type int',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_c4bf93d7e3dca4ee341dbbf0bb9207b1.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:08:54',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Trying to access array offset on value of type bool',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_ece7e65764b99548032fd7f9ac3ffc4d.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:13:44',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "id"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_2a245c5338504747f37c186922666b00.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:14:29',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "id"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_056b55e0f8bececeff9369b8e5172b7b.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:14:44',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key "id"',
+  'file' => 'D:\\test\\my_p\\runtime\\index\\index\\index_55a03f16b55004b7b0e916aa2ce054ae.php',
+  'line' => 11,
+  'datetime' => '2023-08-11 12:14:52',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\upload\\Upload::loacal(): Argument #1 ($file) must be of type array, null given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 36 and defined in D:\\test\\my_p\\core\\upload\\Upload.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(36): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 41,
+  'datetime' => '2023-08-11 12:18:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\upload\\Upload::loacal(): Argument #1 ($file) must be of type array, null given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 36 and defined in D:\\test\\my_p\\core\\upload\\Upload.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(36): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 41,
+  'datetime' => '2023-08-11 12:18:35',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\upload\\Upload::loacal(): Argument #1 ($file) must be of type array, null given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 36 and defined in D:\\test\\my_p\\core\\upload\\Upload.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(36): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 41,
+  'datetime' => '2023-08-11 12:23:45',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\upload\\Upload::loacal(): Argument #1 ($file) must be of type array, null given, called in D:\\test\\my_p\\app\\index\\controller\\IndexController.php on line 39 and defined in D:\\test\\my_p\\core\\upload\\Upload.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(39): core\\upload\\Upload->loacal()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->add()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\upload\\Upload.php',
+  'line' => 41,
+  'datetime' => '2023-08-11 12:26:03',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from lang   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(202): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:43:15',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from lang   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(202): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:45:26',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from lang   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(202): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:46:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from lang   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(202): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:47:56',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from lang   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(206): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:50:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'from category   where id=\'2\'  limit 1\' at line 1 in D:\\test\\my_p\\core\\db\\Db.php:141
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(141): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(206): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 141,
+  'datetime' => '2023-08-11 14:51:44',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught ArgumentCountError: Too few arguments to function core\\db\\Db::field(), 0 passed in D:\\test\\my_p\\core\\db\\Db.php on line 195 and exactly 1 expected in D:\\test\\my_p\\core\\db\\Db.php:70
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(195): core\\db\\Db->field()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(25): core\\db\\Db->findAll()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 70,
+  'datetime' => '2023-08-11 14:52:13',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column \'id\' in where clause is ambiguous in D:\\test\\my_p\\core\\db\\Db.php:138
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(138): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(205): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(27): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 138,
+  'datetime' => '2023-08-11 15:19:25',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column \'id\' in where clause is ambiguous in D:\\test\\my_p\\core\\db\\Db.php:138
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(138): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(205): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(29): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 138,
+  'datetime' => '2023-08-11 15:22:12',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column \'id\' in where clause is ambiguous in D:\\test\\my_p\\core\\db\\Db.php:138
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(138): PDOStatement->execute()
+#1 D:\\test\\my_p\\core\\db\\Db.php(205): core\\db\\Db->find()
+#2 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(29): core\\db\\Db->findAll()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#4 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#5 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#6 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 138,
+  'datetime' => '2023-08-11 15:23:31',
+)

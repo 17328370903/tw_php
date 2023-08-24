@@ -1,0 +1,139 @@
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #2 ($bindValue) must be of type array, int given, called in D:\\test\\my_p\\core\\db\\Db.php on line 187 and defined in D:\\test\\my_p\\core\\db\\Db.php:78
+Stack trace:
+#0 D:\\test\\my_p\\core\\db\\Db.php(187): core\\db\\Db->where()
+#1 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(29): core\\db\\Db->find()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#3 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#4 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#5 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 78,
+  'datetime' => '2023-08-14 10:29:21',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Call to undefined method app\\model\\Comment::finAll() in D:\\test\\my_p\\core\\db\\Db.php:189
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(29): core\\db\\Db->find()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 189,
+  'datetime' => '2023-08-14 10:44:33',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Exception: error in D:\\test\\my_p\\core\\FormRule\\FormRule.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\FormRule\\FormRule->validate()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\FormRule\\FormRule.php',
+  'line' => 41,
+  'datetime' => '2023-08-14 11:15:57',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Exception: error in D:\\test\\my_p\\core\\FormRule\\FormRule.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\FormRule\\FormRule->validate()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\FormRule\\FormRule.php',
+  'line' => 41,
+  'datetime' => '2023-08-14 11:16:06',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Exception: error in D:\\test\\my_p\\core\\FormRule\\FormRule.php:41
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\IndexController.php(19): core\\FormRule\\FormRule->validate()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\IndexController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\FormRule\\FormRule.php',
+  'line' => 41,
+  'datetime' => '2023-08-14 11:19:31',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #2 ($bindValue) must be of type array, string given, called in D:\\test\\my_p\\app\\index\\controller\\LoginController.php on line 24 and defined in D:\\test\\my_p\\core\\db\\Db.php:78
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\LoginController.php(24): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\LoginController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 78,
+  'datetime' => '2023-08-14 15:12:27',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught TypeError: core\\db\\Db::where(): Argument #2 ($bindValue) must be of type array, string given, called in D:\\test\\my_p\\app\\index\\controller\\LoginController.php on line 24 and defined in D:\\test\\my_p\\core\\db\\Db.php:78
+Stack trace:
+#0 D:\\test\\my_p\\app\\index\\controller\\LoginController.php(24): core\\db\\Db->where()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\LoginController->index()
+#2 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#3 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#4 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\core\\db\\Db.php',
+  'line' => 78,
+  'datetime' => '2023-08-14 15:12:37',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::where() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\LoginController.php:24
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\LoginController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\LoginController.php',
+  'line' => 24,
+  'datetime' => '2023-08-14 15:15:32',
+)
+array (
+  'error_no' => 500,
+  'error_msg' => 'Uncaught Error: Non-static method core\\db\\Db::where() cannot be called statically in D:\\test\\my_p\\app\\index\\controller\\LoginController.php:26
+Stack trace:
+#0 D:\\test\\my_p\\core\\Bootstrap.php(63): app\\index\\controller\\LoginController->index()
+#1 D:\\test\\my_p\\core\\Bootstrap.php(14): core\\Bootstrap::dealRoute()
+#2 D:\\test\\my_p\\index.php(4): core\\Bootstrap::run()
+#3 {main}
+  thrown',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\LoginController.php',
+  'line' => 26,
+  'datetime' => '2023-08-14 15:18:06',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Undefined array key 0',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 30,
+  'datetime' => '2023-08-14 18:28:45',
+)
+array (
+  'error_no' => 2,
+  'error_msg' => 'Array to string conversion',
+  'file' => 'D:\\test\\my_p\\app\\index\\controller\\IndexController.php',
+  'line' => 32,
+  'datetime' => '2023-08-14 18:29:22',
+)

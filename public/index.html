@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @media all {
+            .container {
+                color: blue;
+            }
+        }
+
+        @media screen and (max-width: 650px){
+            .container{
+                color:red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">666</div>
+<dialog id="dialog">
+    <div>title</div>
+    <button onclick="dialog.close()">关闭</button>
+</dialog>
+
+<button onclick="dialog.showModal();dialog.show()">弹出来</button>
+</body>
+</html>
+<script>
+    window.addEventListener('resize',function(e){
+        console.log(e.target.innerWidth)
+    })
+
+    let dialog = document.querySelector('#dialog')
+
+</script>

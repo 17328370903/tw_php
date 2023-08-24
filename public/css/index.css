@@ -1,0 +1,10 @@
+.chart_box{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #eee;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+
+}
